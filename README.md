@@ -11,3 +11,6 @@ The model used has pretained weights, except for some layer, where weights were 
 
 I have used wandb for logging model metrics across different training runs.
 
+<br>
+
+![alt-text](https://github.com/shashvatshah9/roberta_text_classification/blob/main/roberta%20train%20metrics.png)
