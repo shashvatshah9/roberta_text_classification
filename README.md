@@ -14,3 +14,9 @@ I have used wandb for logging model metrics across different training runs.
 <br>
 
 ![alt-text](https://github.com/shashvatshah9/roberta_text_classification/blob/main/roberta%20train%20metrics.png)
+
+
+## Room for improvement
+- The code has been benchmarked on cuda systems, but the GPU specifications varied. Not keeping this constrained constant, forced me to use different BATCH_SIZES to improve the GPU memory utilization. So to improve the benchmarking, these can be run on same hardware for better comparison.
+- Oher learning rate schedulers can also be tried.
+- The classification head can be made dense to improve precision.
